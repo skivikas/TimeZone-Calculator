@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+
+    background-image: linear-gradient(to right, rgb(17, 130, 223) , rgb(218, 241, 243));
+}
+h1, h3, p {
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+#header {
+    text-align: center;
+    color: rgb(27, 26, 26);
+}
+
+.input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 15px;
+    margin: auto; 
+    margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%
+}
+
+.inputButton {
+    border-radius: 5px;
+    height: 40px; 
+    width: 90px;
+    margin: auto; 
+    display: block;
+    opacity: 90%
+}
+
+.inputButton:hover {
+    background-color: rgb(12, 107, 215);
+    color: white;
+}
+
+.timeData {
+    border: 5px black;
+    text-align: center;
+}
